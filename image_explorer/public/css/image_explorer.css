@@ -10,7 +10,7 @@
 }
 
 .image-explorer-wrapper img{
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .image-explorer-hotspot-reveal {
@@ -60,14 +60,14 @@
 }
 
 button.image-explorer-hotspot a{
-    color: #FFFFFF;
+    color: #eb3737;
     font-weight: bold;
     text-decoration: underline;
 }
 
 .image-explorer-wrapper button.image-explorer-hotspot:hover,
 .image-explorer-wrapper button.image-explorer-hotspot.visited {
-    background-position: 0 100%;
+    background-position: 0 50%;
 }
 
 button.image-explorer-hotspot .image-explorer-hotspot-reveal .image-explorer-hotspot-reveal-header p {
