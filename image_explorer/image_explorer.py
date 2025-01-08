@@ -84,8 +84,8 @@ class ImageExplorerBlock(XBlock):
                 </p>
             </description>
             <hotspots>
-                <hotspotx="25%" y="30%"' item-id='hotspotA'>
-                    <feedback width='300' height='200'>
+                <hotspot x='25%' y='30' item-id='hotspotA'>
+                    <feedback width='300' height='240'>
                         <header>
                             <p>
                                 This is a motorcycle .Let's Discover it's component !
@@ -93,17 +93,18 @@ class ImageExplorerBlock(XBlock):
                         </header>
                         <body>
                             <ul>
-                                <li>A sleek police motorcycle once raced through these streets.</li>
+                               <li>A sleek police motorcycle once raced through these streets.</li>
                                 <li>A brave firefighter's bike stood ready to respond to emergencies.</li>
+                                <li>Also there was a Fire Truck put up there</li>
                             </ul>
                         </body>
                     </feedback>
                 </hotspot>
-                <hotspot  x="50%" y="40%" item-id="hotspotB">
+                <hotspot x='50%' y='40%' item-id="hotspotB">
                     <feedback width='440' height='400'>
                         <header>
                             <p>
-                                <p>Watch a thrilling motorcycle race!</p>
+                                Watch the Red Line subway go around the dome
                             </p>
                         </header>
                         <youtube video_id='dmoZXcuozFQ' width='400' height='300' />
