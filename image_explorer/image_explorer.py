@@ -86,7 +86,7 @@ class ImageExplorerBlock(XBlock):
                  <div class="row01">
                     <div class="column01"> 
                         <div>Welcome To Kashida Image Explore column 1</div>
-                        <div><img src="https://kashida-learning.com/demo/hotspot-bg-image.jpg" alt="img"/></div>
+                        <div><p> Welcome To Kashida Image Explorer </p></div>
                     </div>
                     <div class="column01"> 
                         <div>Welcome To Kashida Image Explore column 2</div>
