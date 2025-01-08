@@ -151,7 +151,7 @@ class ImageExplorerBlock(XBlock):
         </hotspot>
     </hotspots>
 </image_explorer>
-
+     """))
     def max_score(self):
         """
         Returns the maximum score that can be achieved (always 1.0 on this XBlock)
