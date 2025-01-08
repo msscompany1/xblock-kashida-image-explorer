@@ -88,7 +88,7 @@ button.image-explorer-hotspot .image-explorer-hotspot-reveal .image-explorer-hot
 }
 
 .image-explorer-close-reveal {
-    background: url("/public/images/background-image.png") no-repeat center center;
+  /*  background: url("../images/background-image.png") no-repeat center center; */
     float: center;
     margin-right: 8px;
     margin-top: 8px;
