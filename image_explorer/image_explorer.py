@@ -170,7 +170,7 @@ class ImageExplorerBlock(XBlock):
                 i18n_service=self.runtime.service(self, 'i18n')
             )
         )
-        hotspot_image_url = self.runtime.local_resource_url(self, 'public/images/hotspot-sprite.png')
+        hotspot_image_url = self.runtime.local_resource_url(self, 'public/images/hotspot-red.png')
         fragment.add_css(self.resource_string('public/css/image_explorer.css'))
         fragment.add_javascript_url(self.runtime.local_resource_url(self, 'public/js/image_explorer.js'))
         if has_youtube:

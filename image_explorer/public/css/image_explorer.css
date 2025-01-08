@@ -10,7 +10,7 @@
 }
 
 .image-explorer-wrapper img{
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .image-explorer-hotspot-reveal {
@@ -88,8 +88,8 @@ button.image-explorer-hotspot .image-explorer-hotspot-reveal .image-explorer-hot
 }
 
 .image-explorer-close-reveal {
-    /* background: url("../images/image-explorer-reveal-close.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); */
-    float: right;
+     background: url("../images/background-image.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); 
+    float: center;
     margin-right: 8px;
     margin-top: 8px;
     margin-left: 20px;
