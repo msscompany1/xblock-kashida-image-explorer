@@ -84,26 +84,26 @@ class ImageExplorerBlock(XBlock):
                 </p>
             </description>
             <hotspots>
-                <hotspot x='48.8125%' y='8.3162%' item-id='hotspotA'>
-                    <feedback width='300' height='240'>
+                <hotspotx="25%" y="30%"' item-id='hotspotA'>
+                    <feedback width='300' height='200'>
                         <header>
                             <p>
-                                This is where many pranks take place. Below are some of the highlights:
+                                This is a motorcycle .Let's Discover it's component !
                             </p>
                         </header>
                         <body>
                             <ul>
-                                <li>Once there was a police car up here</li>
-                                <li>Also there was a Fire Truck put up there</li>
+                                <li>A sleek police motorcycle once raced through these streets.</li>
+                                <li>A brave firefighter's bike stood ready to respond to emergencies.</li>
                             </ul>
                         </body>
                     </feedback>
                 </hotspot>
-                <hotspot x='33.8125%' y='18.5831%' item-id="hotspotB">
+                <hotspot  x="50%" y="40%" item-id="hotspotB">
                     <feedback width='440' height='400'>
                         <header>
                             <p>
-                                Watch the Red Line subway go around the dome
+                                <p>Watch a thrilling motorcycle race!</p>
                             </p>
                         </header>
                         <youtube video_id='dmoZXcuozFQ' width='400' height='300' />
@@ -185,7 +185,7 @@ class ImageExplorerBlock(XBlock):
                 i18n_service=self.runtime.service(self, 'i18n')
             )
         )
-        hotspot_image_url = self.runtime.local_resource_url(self, 'public/images/hotspot-sprite.png')
+        hotspot_image_url = self.runtime.local_resource_url(self, 'public/images/hotspot-red.png')
         fragment.add_css(self.resource_string('public/css/image_explorer.css'))
         fragment.add_javascript_url(self.runtime.local_resource_url(self, 'public/js/image_explorer.js'))
         if has_youtube:
