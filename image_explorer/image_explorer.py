@@ -91,7 +91,6 @@ class ImageExplorerBlock(XBlock):
                          </header>
                          <body>
                              <p>This is a detailed overview of how the motorcycle engine works.</p>
-                            <img src="https://example.com/motorcycle_engine.jpg" width="300" height="200" />
                          </body>
                     </feedback>
                  </hotspot>
@@ -113,7 +112,6 @@ class ImageExplorerBlock(XBlock):
                         </header>
                         <body>
                              <p>Learn about the different types of motorcycle suspension systems and how they impact performance.</p>
-                             <img src="https://example.com/motorcycle_suspension.jpg" width="400" height="300" />
                         </body>
                      </feedback>
                  </hotspot>
@@ -126,22 +124,20 @@ class ImageExplorerBlock(XBlock):
                          </header>
                          <body>
                              <p>Explore how different types of motorcycle tires provide grip and stability under various conditions.</p>
-                             <img src="https://example.com/motorcycle_tires.jpg" width="440" height="300" />
                          </body>
                     </feedback>
                  </hotspot>
              </hotspots>       
             <hotspots>
-                 <hotspot x="75%" y="80%" item-id="hotspot5">
+                <hotspot x="75%" y="80%" item-id="hotspot5">
                     <feedback width="300" height="200">
                         <header>
                               <p>Motorcycle Gear Shifting Mechanism</p>
                         </header>
-                         <body>
+                        <body>
                              <p>Understand the mechanics of shifting gears on a motorcycle and its importance for smooth riding.</p>
-                              <img src="https://example.com/motorcycle_gear_shift.jpg" width="300" height="200" />
-                         </body>
-                     </feedback>
+                        </body>
+                    </feedback>
                 </hotspot>
              </hotspots>                                                                                                                                                                                                                                                                               
         </image_explorer>
