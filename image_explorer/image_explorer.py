@@ -86,7 +86,7 @@ class ImageExplorerBlock(XBlock):
                  <div class="row01">
                     <div class="column01"> 
                         <div>Welcome To Kashida Image Explore column 1</div>
-                        <div><img src="https://kashida-learning.com/demo/hotspot-bg-image.jpg" alt="img"></div>
+                        <div><img src="https://kashida-learning.com/demo/hotspot-bg-image.jpg" alt="img"/></div>
                     </div>
                     <div class="column01"> 
                         <div>Welcome To Kashida Image Explore column 2</div>
@@ -153,7 +153,7 @@ class ImageExplorerBlock(XBlock):
                     <feedback width='440' height='400'>
                         <header>
                             <p>
-                                 The clutch lever disengages the engine power, allowing the rider to shift gears smoothly. It's essential for maintaining control during gear changes.
+                                The clutch lever disengages the engine power, allowing the rider to shift gears smoothly. It's essential for maintaining control during gear changes.
                             </p>
                         </header>
                     </feedback>
