@@ -77,31 +77,24 @@ class ImageExplorerBlock(XBlock):
 
     data = String(help=_("XML contents to display for this module"), scope=Scope.content, default=textwrap.dedent("""\
         <image_explorer schema_version='2'>
-            <background src="https://drive.google.com/file/d/1zxja6_Ga5h4vLAkT30L9IbBKSZOl3eVK/view?usp=sharing" />
+            <background src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/MIT_Dome_night1_Edit.jpg/800px-MIT_Dome_night1_Edit.jpg" />
             <description>
                 <p>
-                    Enjoy using kashida Image Explorer. Click around the MIT Dome and see what you find!
+                    Welcome to the Kashida Image Explorer!
                 </p>
             </description>
-            <hotspots>
-                <hotspot x='48.8125%' y='8.3162%' item-id='hotspotA'>
-                    <feedback width='300' height='240'>
-                        <header>
-                            <p>
-                                This is where many pranks take place. Below are some of the highlights:
-                            </p>
-                        </header>
-                        <body>
-                            <ul>
-                                <li>Once there was a police car up here</li>
-                                <li>Also there was a Fire Truck put up there</li>
-                            </ul>
-                        </body>
-                    </feedback>
-                </hotspot>
-                <hotspot x='33.8125%' y='18.5831%' item-id="hotspotB">
-                </hotspot>
-            </hotspots>
+           <hotspots>
+                  <hotspot x="50%" y="50%" item-id="hotspot1">
+                        <feedback width="300" height="200">
+                            <header>
+                                  <p>This is a sample hotspot.</p>
+                            </header>
+                             <body>
+                                 <p>More information about this hotspot.</p>
+                             </body>
+                         </feedback>
+                    </hotspot>
+             </hotspots>
         </image_explorer>
         """))
 
