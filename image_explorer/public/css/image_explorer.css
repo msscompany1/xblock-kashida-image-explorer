@@ -10,7 +10,7 @@
 }
 
 .image-explorer-wrapper img{
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .image-explorer-hotspot-reveal {
@@ -67,7 +67,7 @@ button.image-explorer-hotspot a{
 
 .image-explorer-wrapper button.image-explorer-hotspot:hover,
 .image-explorer-wrapper button.image-explorer-hotspot.visited {
-    background-position: 0 50%;
+    background-position: 0 100%;
 }
 
 button.image-explorer-hotspot .image-explorer-hotspot-reveal .image-explorer-hotspot-reveal-header p {

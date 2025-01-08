@@ -77,10 +77,10 @@ class ImageExplorerBlock(XBlock):
 
     data = String(help=_("XML contents to display for this module"), scope=Scope.content, default=textwrap.dedent("""\
         <image_explorer schema_version='2'>
-            <background src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/MIT_Dome_night1_Edit.jpg/800px-MIT_Dome_night1_Edit.jpg" />
+            <background src="https://drive.google.com/file/d/1zxja6_Ga5h4vLAkT30L9IbBKSZOl3eVK/view?usp=sharing" />
             <description>
                 <p>
-                    Enjoy using the Image Explorer. Click around the MIT Dome and see what you find!
+                    Enjoy using kashida Image Explorer. Click around the MIT Dome and see what you find!
                 </p>
             </description>
             <hotspots>
@@ -100,14 +100,6 @@ class ImageExplorerBlock(XBlock):
                     </feedback>
                 </hotspot>
                 <hotspot x='33.8125%' y='18.5831%' item-id="hotspotB">
-                    <feedback width='440' height='400'>
-                        <header>
-                            <p>
-                                Watch the Red Line subway go around the dome
-                            </p>
-                        </header>
-                        <youtube video_id='dmoZXcuozFQ' width='400' height='300' />
-                    </feedback>
                 </hotspot>
             </hotspots>
         </image_explorer>
