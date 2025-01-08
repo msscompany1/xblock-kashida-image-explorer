@@ -76,26 +76,34 @@ class ImageExplorerBlock(XBlock):
     )
 
     data = String(help=_("XML contents to display for this module"), scope=Scope.content, default=textwrap.dedent("""\
-        <image_explorer schema_version='2'>
-            <background src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/MIT_Dome_night1_Edit.jpg/800px-MIT_Dome_night1_Edit.jpg" />
+        <<image_explorer schema_version="2">
+    <div style="display: flex; align-items: center;">
+        <div style="width: 40%; padding-right: 20px;">
             <description>
                 <p>
                     Welcome to the Kashida Image Explorer!
                 </p>
             </description>
-           <hotspots>
-                  <hotspot x="50%" y="50%" item-id="hotspot1">
-                        <feedback width="300" height="200">
-                            <header>
-                                  <p>This is a sample hotspot.</p>
-                            </header>
-                             <body>
-                                 <p>More information about this hotspot.</p>
-                             </body>
-                         </feedback>
-                    </hotspot>
-             </hotspots>
-        </image_explorer>
+        </div>
+
+        <div style="width: 60%; position: relative;">
+            <background src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/MIT_Dome_night1_Edit.jpg/800px-MIT_Dome_night1_Edit.jpg" />
+            <img src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/MIT_Dome_night1_Edit.jpg/800px-MIT_Dome_night1_Edit.jpg" style="width: 100%; height: auto; border-radius: 10px;">
+
+            <div style="position: absolute; top: 50%; left: 50%; width: 30px; height: 30px; background-color: red; border-radius: 50%; transform: translate(-50%, -50%);">
+                <feedback width="300" height="200" style="display: none;">
+                    <header>
+                        <p>This is a sample hotspot.</p>
+                    </header>
+                        <body>
+                        <p>More information about this hotspot.</p>
+                        </body>
+                    </feedback>
+                </div>
+            </div>
+        </div>
+    </image_explorer>
+
         """))
 
     def max_score(self):
