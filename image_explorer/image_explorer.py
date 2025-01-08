@@ -77,7 +77,7 @@ class ImageExplorerBlock(XBlock):
 
     data = String(help=_("XML contents to display for this module"), scope=Scope.content, default=textwrap.dedent("""\
         <image_explorer schema_version='2'>
-            <background src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/MIT_Dome_night1_Edit.jpg/800px-MIT_Dome_night1_Edit.jpg" />
+            <background src="../images/background-image.png" />
             <description>
                 <p>
                     Welcome to the Kashida Image Explorer!
