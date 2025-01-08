@@ -82,9 +82,24 @@ class ImageExplorerBlock(XBlock):
                 <p>
                     Welcome To Kashida Image Explorer 
                 </p>
+                                                                                                                  
+                 <div class="row01">
+                    <div class="column01"> 
+                        <div>Welcome To Kashida Image Explore column 1</div>
+                        <div><img src="https://kashida-learning.com/demo/hotspot-bg-image.jpg" alt="img"></div>
+                    </div>
+                    <div class="column01"> 
+                        <div>Welcome To Kashida Image Explore column 2</div>
+                        <div><youtube video_id='dmoZXcuozFQ' width='400' height='300' /></div>
+                    </div>
+
+                  </div>                                                                                                
+            <p>..</p>
+
+                                                                                                                  
             </description>
             <hotspots>
-                <hotspot x='25%' y='30' item-id='hotspotA'>
+                <hotspot x='60%' y='28' item-id='hotspotA'>
                     <feedback width='300' height='240'>
                         <header>
                             <p>
@@ -100,17 +115,52 @@ class ImageExplorerBlock(XBlock):
                         </body>
                     </feedback>
                 </hotspot>
-                <hotspot x='50%' y='40%' item-id="hotspotB">
+                                                                                                                  
+                <hotspot x='38%' y='78%' item-id="hotspotB">
                     <feedback width='440' height='400'>
                         <header>
                             <p>
-                                Watch the Red Line subway go around the dome
+                                Watch amazing race !
                             </p>
                         </header>
                         <youtube video_id='dmoZXcuozFQ' width='400' height='300' />
                     </feedback>
                 </hotspot>
+                                                                                                                  
+                                                                                                                   
+                <hotspot x='36%' y='76%' item-id="hotspotC">
+                    <feedback width='440' height='400'>
+                        <header>
+                            <p>
+                                Brake Leve
+                            </p>
+                        </header>
+                         <p>
+                            The brake lever is a critical safety component. It allows the rider to control the front brake, ensuring safe stopping power. Regular maintenance is essential to keep it in top condition.
+                        </p>
+                    </feedback>
+                </hotspot>                                                                                                                 
             </hotspots>
+                  <hotspot x='50%' y='53%' item-id="hotspotC">
+                    <feedback width='440' height='400'>
+                        <header>
+                            <p>
+                                 Exhaust Pipe
+                            </p>
+                        </header>
+                    </feedback>
+                </hotspot>                                                                                                                 
+            </hotspots>   
+                   <hotspot x='68%' y='53%' item-id="hotspotD">
+                    <feedback width='440' height='400'>
+                        <header>
+                            <p>
+                                 The clutch lever disengages the engine power, allowing the rider to shift gears smoothly. It's essential for maintaining control during gear changes.
+                            </p>
+                        </header>
+                    </feedback>
+                </hotspot>                                                                                                                 
+            </hotspots>                                                                                                                                                                                            
         </image_explorer>
         """))
 
@@ -186,7 +236,7 @@ class ImageExplorerBlock(XBlock):
                 i18n_service=self.runtime.service(self, 'i18n')
             )
         )
-        hotspot_image_url = self.runtime.local_resource_url(self, 'public/images/hotspot-red.png')
+        hotspot_image_url = self.runtime.local_resource_url(self, 'public/images/hotspot-sprite.png')
         fragment.add_css(self.resource_string('public/css/image_explorer.css'))
         fragment.add_javascript_url(self.runtime.local_resource_url(self, 'public/js/image_explorer.js'))
         if has_youtube:
