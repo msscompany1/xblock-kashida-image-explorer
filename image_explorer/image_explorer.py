@@ -80,68 +80,39 @@ class ImageExplorerBlock(XBlock):
             <background src="https://kashida-learning.com/demo/hotspot-bg-image.jpg" />
             <description>
                 <p>
-                    Welcome to kashida Image Explorer 
+                    Welcome To Kashida Image Explorer 
                 </p>
             </description>
             <hotspots>
-                <hotspot x="25%" y="30%" item-id="hotspot1">
-                    <feedback width="300" height="200">
+                <hotspot x='48.8125%' y='8.3162%' item-id='hotspotA'>
+                    <feedback width='300' height='240'>
                         <header>
-                           <p>Motorcycle Engine</p>
-                         </header>
-                         <body>
-                             <p>This is a detailed overview of how the motorcycle engine works.</p>
-                         </body>
-                    </feedback>
-                 </hotspot>
-             <hotspots>
-                 <hotspot x="50%" y="40%" item-id="hotspot2">
-                    <feedback width="440" height="400">
-                        <header>
-                             <p>Watch a thrilling motorcycle race!</p>
-                        </header>
-                         <youtube video_id="dmoZXcuozFQ" width="400" height="300"/>
-                     </feedback>
-                 </hotspot>
-            </hotspots>
-            <hotspots>
-                <hotspot x="70%" y="50%" item-id="hotspot3">
-                  <feedback width="400" height="300">
-                         <header>
-                              <p>Motorcycle Suspension System</p>
+                            <p>
+                                This is where many pranks take place. Below are some of the highlights:
+                            </p>
                         </header>
                         <body>
-                             <p>Learn about the different types of motorcycle suspension systems and how they impact performance.</p>
-                        </body>
-                     </feedback>
-                 </hotspot>
-            </hotspots>  
-            <hotspots>
-                 <hotspot x="25%" y="70%" item-id="hotspot4">
-                     <feedback width="440" height="400">
-                        <header>
-                            <p>Motorcycle Tires and Grip</p>
-                         </header>
-                         <body>
-                             <p>Explore how different types of motorcycle tires provide grip and stability under various conditions.</p>
-                         </body>
-                    </feedback>
-                 </hotspot>
-             </hotspots>       
-            <hotspots>
-                <hotspot x="75%" y="80%" item-id="hotspot5">
-                    <feedback width="300" height="200">
-                        <header>
-                              <p>Motorcycle Gear Shifting Mechanism</p>
-                        </header>
-                        <body>
-                             <p>Understand the mechanics of shifting gears on a motorcycle and its importance for smooth riding.</p>
+                            <ul>
+                                <li>Once there was a police car up here</li>
+                                <li>Also there was a Fire Truck put up there</li>
+                            </ul>
                         </body>
                     </feedback>
                 </hotspot>
-             </hotspots>                                                                                                                                                                                                                                                                               
+                <hotspot x='33.8125%' y='18.5831%' item-id="hotspotB">
+                    <feedback width='440' height='400'>
+                        <header>
+                            <p>
+                                Watch the Red Line subway go around the dome
+                            </p>
+                        </header>
+                        <youtube video_id='dmoZXcuozFQ' width='400' height='300' />
+                    </feedback>
+                </hotspot>
+            </hotspots>
         </image_explorer>
         """))
+
     def max_score(self):
         """
         Returns the maximum score that can be achieved (always 1.0 on this XBlock)
@@ -214,7 +185,7 @@ class ImageExplorerBlock(XBlock):
                 i18n_service=self.runtime.service(self, 'i18n')
             )
         )
-        hotspot_image_url = self.runtime.local_resource_url(self, 'public/images/hotspot-red.png')
+        hotspot_image_url = self.runtime.local_resource_url(self, 'public/images/hotspot-sprite.png')
         fragment.add_css(self.resource_string('public/css/image_explorer.css'))
         fragment.add_javascript_url(self.runtime.local_resource_url(self, 'public/js/image_explorer.js'))
         if has_youtube:
