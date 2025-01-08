@@ -93,11 +93,11 @@ class ImageExplorerBlock(XBlock):
                         <div><youtube video_id='dmoZXcuozFQ' width='400' height='300' /></div>
                     </div>
 
-                  </div>                                                                                                
-            <p>..</p>
+                </div>                                                                                                
+                 <p>..</p>
 
                                                                                                                   
-            </description>
+             </description>
             <hotspots>
                 <hotspot x='60%' y='28' item-id='hotspotA'>
                     <feedback width='300' height='240'>
@@ -140,8 +140,7 @@ class ImageExplorerBlock(XBlock):
                         </p>
                     </feedback>
                 </hotspot>                                                                                                                 
-            </hotspots>
-                  <hotspot x='50%' y='53%' item-id="hotspotC">
+                <hotspot x='50%' y='53%' item-id="hotspotC">
                     <feedback width='440' height='400'>
                         <header>
                             <p>
@@ -150,8 +149,7 @@ class ImageExplorerBlock(XBlock):
                         </header>
                     </feedback>
                 </hotspot>                                                                                                                 
-            </hotspots>   
-                   <hotspot x='68%' y='53%' item-id="hotspotD">
+                <hotspot x='68%' y='53%' item-id="hotspotD">
                     <feedback width='440' height='400'>
                         <header>
                             <p>
