@@ -101,7 +101,7 @@ class ImageExplorerBlock(XBlock):
             <p class="closing-message">Explore, learn, and have fun!</p>
         </description>
             <hotspots>
-                <hotspot x='36%' y='78%' item-id='hotspotA'>
+                <hotspot x='63%' y='28%' item-id='hotspotA'>
                     <feedback width='300' height='240'>
                         <header>
                             <p>
@@ -118,7 +118,7 @@ class ImageExplorerBlock(XBlock):
                     </feedback>
                 </hotspot>
                                                                                                                   
-                <hotspot x='63%' y='28%' item-id="hotspotB">
+                <hotspot x='36%' y='78%' item-id="hotspotB">
                     <feedback width='440' height='400'>
                         <header>
                             <p>
@@ -130,7 +130,7 @@ class ImageExplorerBlock(XBlock):
                 </hotspot>
                                                                                                                   
                                                                                                                    
-                <hotspot x='68%' y='53%' item-id="hotspotC">
+                <hotspot x='63%' y='78%' item-id="hotspotC">
                     <feedback width='440' height='400'>
                         <header>
                             <p>
@@ -142,7 +142,7 @@ class ImageExplorerBlock(XBlock):
                         </p>
                     </feedback>
                 </hotspot>                                                                                                                 
-                <hotspot x='50%' y='53%' item-id="hotspotC">
+                <hotspot x='50%' y='53%' item-id="hotspotD">
                     <feedback width='440' height='400'>
                         <header>
                             <p>
@@ -151,7 +151,7 @@ class ImageExplorerBlock(XBlock):
                         </header>
                     </feedback>
                 </hotspot>                                                                                                                 
-                <hotspot x='64%' y='78%' item-id="hotspotD">
+                <hotspot x='67%' y='53%' item-id="hotspotE">
                     <feedback width='440' height='400'>
                         <header>
                             <p>
