@@ -78,26 +78,28 @@ class ImageExplorerBlock(XBlock):
     data = String(help=_("XML contents to display for this module"), scope=Scope.content, default=textwrap.dedent("""\
         <image_explorer schema_version='2'>
             <background src="https://kashida-learning.com/demo/hotspot-bg-image.jpg" />
-            <description>
-                <p>
-                    Welcome To Kashida Image Explorer 
-                </p>
-                                                                                                                  
-                 <div class="row01">
-                    <div class="column01"> 
-                        <div>Welcome To Kashida Image Explore column 1</div>
-                        <div><p> Welcome To Kashida Image Explorer </p></div>
+        <description>
+            <p class="welcome-message">Welcome to the Kashida Image Explorer!</p>
+            <div class="row01">
+                <div class="column01">
+                    <h3>Explore Motorcycle Parts</h3>
+                    <p>
+                        Click on different parts of the motorcycle to learn more about how they function. Discover their role in ensuring a smooth and safe ride!
+                    </p>
+                    <button class="explore-button">Start Exploring</button>
+                </div>
+                <div class="column01">
+                    <h3>Watch an Interactive Video</h3>
+                    <p>
+                        Learn more about the history of motorcycles and their components by watching this video!
+                    </p>
+                    <div class="video-container">
+                        <iframe width="400" height="300" src="https://www.youtube.com/embed/xYh9nSH7akE" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <div class="column01"> 
-                        <div>Welcome To Kashida Image Explore column 2</div>
-                        <div><youtube video_id='dmoZXcuozFQ' width='400' height='300' /></div>
-                    </div>
-
-                </div>                                                                                                
-                 <p>..</p>
-
-                                                                                                                  
-             </description>
+                </div>
+            </div>
+            <p class="closing-message">Explore, learn, and have fun!</p>
+        </description>
             <hotspots>
                 <hotspot x='36%' y='78' item-id='hotspotA'>
                     <feedback width='300' height='240'>
