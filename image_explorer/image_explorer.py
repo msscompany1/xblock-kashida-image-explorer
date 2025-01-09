@@ -99,7 +99,7 @@ class ImageExplorerBlock(XBlock):
                                                                                                                   
              </description>
             <hotspots>
-                <hotspot x='60%' y='28' item-id='hotspotA'>
+                <hotspot x='36%' y='78' item-id='hotspotA'>
                     <feedback width='300' height='240'>
                         <header>
                             <p>
@@ -116,7 +116,7 @@ class ImageExplorerBlock(XBlock):
                     </feedback>
                 </hotspot>
                                                                                                                   
-                <hotspot x='38%' y='78%' item-id="hotspotB">
+                <hotspot x='63%' y='28%' item-id="hotspotB">
                     <feedback width='440' height='400'>
                         <header>
                             <p>
@@ -128,7 +128,7 @@ class ImageExplorerBlock(XBlock):
                 </hotspot>
                                                                                                                   
                                                                                                                    
-                <hotspot x='36%' y='76%' item-id="hotspotC">
+                <hotspot x='68%' y='53%' item-id="hotspotC">
                     <feedback width='440' height='400'>
                         <header>
                             <p>
@@ -149,7 +149,7 @@ class ImageExplorerBlock(XBlock):
                         </header>
                     </feedback>
                 </hotspot>                                                                                                                 
-                <hotspot x='68%' y='53%' item-id="hotspotD">
+                <hotspot x='64%' y='78%' item-id="hotspotD">
                     <feedback width='440' height='400'>
                         <header>
                             <p>
