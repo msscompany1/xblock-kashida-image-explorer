@@ -94,14 +94,14 @@ class ImageExplorerBlock(XBlock):
                         Learn more about the history of motorcycles and their components by watching this video!
                     </p>
                     <div class="video-container">
-                        <iframe width="400" height="300" src="https://www.youtube.com/embed/xYh9nSH7akE" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="400" height="300" src="https://www.youtube.com/embed/xYh9nSH7akE" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
             <p class="closing-message">Explore, learn, and have fun!</p>
         </description>
             <hotspots>
-                <hotspot x='36%' y='78' item-id='hotspotA'>
+                <hotspot x='36%' y='78%' item-id='hotspotA'>
                     <feedback width='300' height='240'>
                         <header>
                             <p>
