@@ -5,6 +5,7 @@ function ImageExplorerEditBlock(runtime, element) {
     $(element).find('.save-button').bind('click', function() {
         var data = {
             'display_name': $(element).find('.edit-display-name').val(),
+            'subtitle': $(element).find('#subt_edit_display_name').val(),
             'hotspot_coordinates_centered': $('.edit-hotspot-coordinates-centered', element).is(':checked'),
             'data': xmlEditor.getValue(),
         };

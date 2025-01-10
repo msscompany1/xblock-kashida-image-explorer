@@ -62,6 +62,12 @@ class ImageExplorerBlock(XBlock):
         scope=Scope.settings,
         default=_("Image Explorer")
     )
+    subtitle = String(
+      display_name=_("Subtitle"),
+      help=_("This subtitle appears beneath the display name in the Image Explorer."),
+      scope=Scope.settings,
+      default=_("Default Subtitle")  
+    )
 
     _hotspot_coordinates_centered = Boolean(
         display_name=_("Hot Spots Coordinates Centered"),
@@ -221,6 +227,7 @@ class ImageExplorerBlock(XBlock):
 
         context = {
             'title': self.display_name,
+             'subtitle': self.subtitle,
             'hotspot_coordinates_centered': self.hotspot_coordinates_centered,
             'description_html': description,
             'hotspots': hotspots,
