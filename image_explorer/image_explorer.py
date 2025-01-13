@@ -349,7 +349,7 @@ class ImageExplorerBlock(XBlock):
         Handle the action of the submit button when using the block from Studio
         """
         self.display_name = submissions['display_name']
-        self.subtitle = submissions.get('subtitle', "") 
+        self.subtitle = submissions['subtitle'] 
         if submissions.get('hotspot_coordinates_centered', False):
             self._hotspot_coordinates_centered = True
 
