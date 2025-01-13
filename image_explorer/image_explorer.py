@@ -60,13 +60,13 @@ class ImageExplorerBlock(XBlock):
         display_name=_("Display Name"),
         help=_("This name appears in the horizontal navigation at the top of the page."),
         scope=Scope.settings,
-        default=_("Image Explorer")
+        default=_("Kashida Image Explorer")
     )
     subtitle = String(
       display_name=_("Subtitle"),
       help=_("This subtitle appears beneath the display name in the Image Explorer."),
       scope=Scope.settings,
-      default=_("Default Subtitle")  
+      default=_("Add a subtitle")  
     )
 
     _hotspot_coordinates_centered = Boolean(
